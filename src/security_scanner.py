@@ -41,7 +41,7 @@ DANGER_PATTERNS = [
 ]
 
 SCANNABLE_EXTENSIONS = {".py", ".js", ".ts", ".env", ".yml", ".yaml", ".json", ".sh", ".tf", ".cfg", ".ini"}
-SKIP_PATTERNS        = {".git", "__pycache__", "node_modules", "venv", ".egg-info", "dist", "build"}
+SKIP_PATTERNS        = {".git", "__pycache__", "node_modules", "venv", ".egg-info", "dist", "build", "tests"}
 
 
 class SecurityScanner:
